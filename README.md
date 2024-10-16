@@ -30,7 +30,7 @@ flag | description
 1. #### IMPORT a PFX/PKCS12 file into the MY store, overwriting if allowed:
     
     ```bat
-    importpfs.exe -f x509.p12 -p "password" -t USER -s MY
+    importpfx.exe -f x509.p12 -p "password" -t USER -s MY
     ```
 
 2. #### IMPORT a PFX/PKCS12 file into the local machine Testing store and delete any stored certificates with a Subject containing `OU="Self-Signed CA"`:
